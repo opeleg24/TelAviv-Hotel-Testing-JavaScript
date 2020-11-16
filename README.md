@@ -1,9 +1,7 @@
 # TelAviv-Hotel-Testing-JavaScript
 Tel Aviv Hotel Automation Testing - Puppeteer
 
-#Getting Started
-
-#Installation
+# Getting Started
 
 # Built With
 
