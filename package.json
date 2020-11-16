@@ -1,0 +1,36 @@
+{
+  "name": "telaviv-hotel_automation_testing_puppeteer_project",
+  "version": "1.0.0",
+  "description": "Test automation framewrok with mocha steps and builder class pattern to test the Tel Aviv hotel website",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./build/tests/**.js",
+    "testAboutUsPage": "node ./node_modules/mocha/bin/mocha --timeout=50000 ./build/tests/ValidateAboutUSPage.test.js",
+    "testNewYorkPage": "node ./node_modules/mocha/bin/mocha --timeout=50000 ./build/tests/ValidateTelAvivCityPage.test.js",
+    "testContactUsPage": "node ./node_modules/mocha/bin/mocha --timeout=50000 ./build/tests/ValidateContactUsPage.test.js",
+    "testHomePage": "node ./node_modules/mocha/bin/mocha --timeout=50000 ./build/tests/ValidateHomePage.test.js",
+    "testBlogPage": "node ./node_modules/mocha/bin/mocha --timeout=50000 ./build/tests/ValidateBlogPage.test.js",
+    "testHelpChatTool": "node ./node_modules/mocha/bin/mocha --timeout=50000 ./build/tests/ValidateHelpChatTool.test.js",
+    "clear": "rm -rf build",
+    "build": "babel --preset es2015 -d build/ src/"
+  },
+  "keywords": [
+    "mocha",
+    "puppeteer",
+    "framework"
+  ],
+  "author": "Omri Peleg",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "mocha-steps": "^1.3.0",
+    "puppeteer": "^5.4.1",
+    "soft-assert": "^0.2.3"
+  },
+  "devDependencies": {
+    "@alfonso-presa/soft-assert": "^0.5.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
