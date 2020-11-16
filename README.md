@@ -3,6 +3,11 @@ Tel Aviv Hotel Automation Testing - Puppeteer
 
 # Getting Started
 
+# Installation
+
+Install dependencies : npm install
+
+
 # Built With
 
 • JavaScript - Scripting language.
