@@ -1,8 +1,6 @@
 # TelAviv-Hotel-Testing-JavaScript
 Tel Aviv Hotel Automation Testing - Puppeteer
 
-# Getting Started
-
 # Installation
 
 Install dependencies : npm install
